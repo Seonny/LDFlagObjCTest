@@ -1,0 +1,6 @@
+framework module OjbcLdFlagTestXCFramework {
+  umbrella header "OjbcLdFlagTestXCFramework.h"
+  export *
+
+  module * { export * }
+}

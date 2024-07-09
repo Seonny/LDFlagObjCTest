@@ -1,0 +1,79 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OjbcLdFlagTestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FrameworkClassFirst",
+        "printedName": "FrameworkClassFirst",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FrameworkClassFirst",
+                "printedName": "OjbcLdFlagTestFramework.FrameworkClassFirst",
+                "usr": "s:23OjbcLdFlagTestFramework0E10ClassFirstC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23OjbcLdFlagTestFramework0E10ClassFirstCACycfc",
+            "mangledName": "$s23OjbcLdFlagTestFramework0E10ClassFirstCACycfc",
+            "moduleName": "OjbcLdFlagTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "instance_FrameworkClassFirst",
+            "printedName": "instance_FrameworkClassFirst()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23OjbcLdFlagTestFramework0E10ClassFirstC09instance_efG0SSyF",
+            "mangledName": "$s23OjbcLdFlagTestFramework0E10ClassFirstC09instance_efG0SSyF",
+            "moduleName": "OjbcLdFlagTestFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23OjbcLdFlagTestFramework0E10ClassFirstC",
+        "mangledName": "$s23OjbcLdFlagTestFramework0E10ClassFirstC",
+        "moduleName": "OjbcLdFlagTestFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
